@@ -1,0 +1,16 @@
+.header__top{
+  background: #EFEFEF;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.top__list{
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+
+  &-link{
+    color: var(--dark-text);
+    line-height: 1.142;
+  }
+}
