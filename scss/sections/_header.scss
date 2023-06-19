@@ -39,3 +39,25 @@
     color: #000000;
   }
 }
+
+/*header-bottom*/
+
+.header__bottom{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom__list{
+  display: flex;
+  gap: 40px;
+
+  &-link{
+    line-height: 1.187;
+    color: #000000;
+    &:hover{
+      color: #F13C6E;
+    }
+  }
+}
