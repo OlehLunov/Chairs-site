@@ -1,0 +1,21 @@
+.offers{
+  padding-top: 80px;
+  padding-bottom: 100px;
+  &__title{
+    margin-bottom: 40px;
+  }
+}
+
+.offers__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: center;
+}
+.offers__item{
+  background: #FFFFFF;
+  &-description{
+    max-width: 195px;
+    text-align: center;
+  }
+}

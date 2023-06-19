@@ -17,7 +17,30 @@
   min-height: 40px;
   border: 2px solid #FFFFFF;
   border-radius: 40px;
-  background: #F13C6E;;
+  background: #F13C6E;
   font-size: 14px;
+  color: #FFFFFF;
   line-height: 1.142;
+  &:hover{
+    background: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+  }
+}
+
+.btn__store{
+  width: 130px;
+  min-height: 35px;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  background: #F13C6E;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 1.142;
+  &:hover{
+    background: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    border: 2px solid #F13C6E;
+  }
 }
