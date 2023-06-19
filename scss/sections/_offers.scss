@@ -8,14 +8,18 @@
 
 .offers__content {
   display: flex;
-  justify-content: space-between;
-  gap: 30px;
   text-align: center;
+  justify-content: space-between;
 }
 .offers__item{
+  max-width: 255px;
   background: #FFFFFF;
+  &-img{
+    padding: 25px 65px 0 65px;
+  }
   &-description{
-    max-width: 195px;
+    padding-left:30px;
+    padding-right: 30px;
     text-align: center;
   }
 }
