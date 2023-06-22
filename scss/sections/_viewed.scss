@@ -1,0 +1,35 @@
+.viewed{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  &__title{
+    margin-bottom: 40px;
+  }
+}
+.viewed__content {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.viewed__item {
+  max-width: 255px;
+  background: #FFFFFF;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  &-img{
+    padding: 0 65px 0 65px;
+    margin-bottom: 20px;
+  }
+  &-description{
+    padding-left:30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &-price{
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: var(--font-medium);
+    letter-spacing: 1.05px;
+  }
+}
