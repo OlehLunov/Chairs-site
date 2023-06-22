@@ -1,0 +1,10 @@
+.bonuses{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--main-color);
+  max-width: 540px;
+  height:212px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
