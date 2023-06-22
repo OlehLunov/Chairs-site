@@ -31,3 +31,55 @@ width: 255px;
     }
   }
 }
+
+/*footer mid*/
+
+.footer__mid{
+  border-top: 1px solid #EFEFEF;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__socials{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  &-img{
+    border-radius: 45px;
+    border: 2px solid #F13C6E;
+    padding: 10px;
+  }
+}
+
+.footer__contacts{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  &-tel{
+    font-size: 16px;
+    line-height: 1.187;
+    color: #000000;
+  }
+}
+
+/*footer-bottom*/
+
+.footer__bottom{
+  background: #EFEFEF;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.footer__content{
+  display: flex;
+  justify-content: space-between;
+  &-rights{
+    font-size: 12px;
+    color: #828282;
+  }
+  &-policy{
+    font-size: 12px;
+    color: #828282;
+  }
+}
