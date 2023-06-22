@@ -8,3 +8,25 @@
   padding-top: 35px;
   padding-bottom: 35px;
 }
+.bonuses__content{
+  &-title{
+    font-size: 18px;
+    font-weight: var(--font-bold);
+    color: #FFF;
+    margin-bottom: 25px;
+  }
+  &-text{
+    color: #FFF;
+    margin-bottom: 25px;
+    max-width: 130px;
+  }
+  &-mail{
+    border-radius: 30px;
+    background: #FFF;
+    width: 225px;
+    height: 35px;
+    border: none;
+    padding-left: 25px;
+    outline: none;
+  }
+}
